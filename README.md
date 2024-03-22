@@ -6,6 +6,4 @@ As you accumulate more votes, you'll have the opportunity to unlock a variety of
 
 Strategically decide which upgrades to pursue to optimize your campaign trail. Do you focus on grassroots support to slowly but steadily build a loyal voter base, or do you aim for high-impact media campaigns that promise a surge of votes but may fizzle out quickly?
 
-But it's not all smooth sailing. Encounter challenges such as debates, scandals, and rival candidates that threaten your climb to the top. How you manage these hurdles can either boost your votes or cause setbacks in your campaign.
-
 With vibrant graphics, engaging mechanics, and a tongue-in-cheek look at political campaigns, "Vote Craze Clicker" offers endless entertainment for players of all ages. Whether you're in it for the satire or the satisfaction of seeing numbers go up, this game provides a humorous, albeit simplistic, simulation of climbing the political ladder—one click at a time.
