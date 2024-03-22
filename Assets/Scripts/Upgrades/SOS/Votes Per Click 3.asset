@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8552a717c1c003b458d893289bfc7be4, type: 3}
   m_Name: Votes Per Click 3
   m_EditorClassIdentifier: 
-  UpgradeAmount: 1
-  OriginalUpgradeCost: 100
-  CurrentUpgradeCost: 100
-  CostIncreaseMultiplierPerPurchase: 0.05
-  UpgradeButtonText: 
-  UpgradeButtonDscription: Increases the vote click amount by {1}
+  UpgradeAmount: 100
+  OriginalUpgradeCost: 5000
+  CurrentUpgradeCost: 5000
+  CostIncreaseMultiplierPerPurchase: 0.5
+  UpgradeButtonText: Big City Vibes
+  UpgradeButtonDscription: 

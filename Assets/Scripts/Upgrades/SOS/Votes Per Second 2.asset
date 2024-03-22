@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfc69530e0e395e4395a9ddd6ccf5433, type: 3}
   m_Name: Votes Per Second 2
   m_EditorClassIdentifier: 
-  UpgradeAmount: 5
-  OriginalUpgradeCost: 1000
-  CurrentUpgradeCost: 1000
+  UpgradeAmount: 15
+  OriginalUpgradeCost: 5000
+  CurrentUpgradeCost: 5000
   CostIncreaseMultiplierPerPurchase: 0.2
-  UpgradeButtonText: Medium Rural Town
+  UpgradeButtonText: Manager Tier II
   UpgradeButtonDscription: 

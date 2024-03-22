@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public abstract class VoteUpgrade : ScriptableObject
 {
@@ -13,7 +15,6 @@ public abstract class VoteUpgrade : ScriptableObject
     public string UpgradeButtonText;
     [TextArea(3,10)]
     public string UpgradeButtonDscription;
-
     public abstract void ApplyUpgrade();
 
     private void OnValidate() {

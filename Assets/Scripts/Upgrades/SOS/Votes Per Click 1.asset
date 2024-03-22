@@ -15,6 +15,6 @@ MonoBehaviour:
   UpgradeAmount: 1.2
   OriginalUpgradeCost: 25
   CurrentUpgradeCost: 25
-  CostIncreaseMultiplierPerPurchase: 0.5
-  UpgradeButtonText: Advertisement
-  UpgradeButtonDscription: 'Gain more votes by each click: 1.2'
+  CostIncreaseMultiplierPerPurchase: 1
+  UpgradeButtonText: Campaign Starter
+  UpgradeButtonDscription: 

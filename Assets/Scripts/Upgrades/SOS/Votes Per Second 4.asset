@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfc69530e0e395e4395a9ddd6ccf5433, type: 3}
   m_Name: Votes Per Second 4
   m_EditorClassIdentifier: 
-  UpgradeAmount: 1
-  OriginalUpgradeCost: 100
-  CurrentUpgradeCost: 100
-  CostIncreaseMultiplierPerPurchase: 0.05
-  UpgradeButtonText: 
-  UpgradeButtonDscription: Increases the votes amount per second by {1}
+  UpgradeAmount: 1000
+  OriginalUpgradeCost: 999999
+  CurrentUpgradeCost: 999999
+  CostIncreaseMultiplierPerPurchase: 0.3
+  UpgradeButtonText: Insider Trading
+  UpgradeButtonDscription: 

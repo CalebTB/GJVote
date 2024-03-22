@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 using UnityEngine.UI;
-using DG.Tweening;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
+using TMPro;
+using DG.Tweening;
 
 public class VoteManager : MonoBehaviour
 {
@@ -38,7 +39,6 @@ public class VoteManager : MonoBehaviour
         if (instance == null) {
             instance = this;
         }
-        // voteDisplay = GetComponent<VoteNumberDisplay>();
         UpdateVoteUI();
         UpdateVotesPerSecondUI();
 
@@ -116,6 +116,17 @@ public class VoteManager : MonoBehaviour
 
             upgrade.CurrentUpgradeCost = Mathf.Round((float)(upgrade.CurrentUpgradeCost * (1 + upgrade.CostIncreaseMultiplierPerPurchase)));
             buttonScript.UpgradeCostText.text = "Cost: " + upgrade.CurrentUpgradeCost;
+        }
+    }
+
+    #endregion
+
+    #region Endstate 
+
+    public void EndGameButton() {
+        if(CurrentVoteCount >= 10000) {
+            //Change to a win menu
+            SceneManager.LoadScene(2);
         }
     }
 

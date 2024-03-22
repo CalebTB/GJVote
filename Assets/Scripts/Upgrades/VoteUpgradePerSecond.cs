@@ -1,7 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
-using UnityEditorInternal;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Vote Upgrade/Votes Per Second", fileName ="Votes Per Second")]
