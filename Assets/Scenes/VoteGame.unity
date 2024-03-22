@@ -2318,7 +2318,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a0389fc1a7c5e664ba0ea8519dbc4785, type: 2}
   - {fileID: 11400000, guid: e91301ce11f642e4bac6c6d370916b43, type: 2}
   - {fileID: 11400000, guid: 1cf6ffbdc774e7148a0422b339da8d0a, type: 2}
-  - {fileID: 11400000, guid: 1cf6ffbdc774e7148a0422b339da8d0a, type: 2}
+  - {fileID: 11400000, guid: 78aabb5df90c8c14bb0907980dc131b2, type: 2}
   upgradeUiToSpawn: {fileID: 5878614305371356220, guid: 30a8ca00bde75ac439dc229e0e631420, type: 3}
   upgradeUiParent: {fileID: 797117708}
   votesPerSecondObjToSpawn: {fileID: 70188351177696725, guid: cc47610add0107741bc5b6adf6555fd3, type: 3}
