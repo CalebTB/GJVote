@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfc69530e0e395e4395a9ddd6ccf5433, type: 3}
   m_Name: Votes Per Second 6
   m_EditorClassIdentifier: 
-  UpgradeAmount: 500000
+  UpgradeAmount: 9690690
   OriginalUpgradeCost: 100000000
-  CurrentUpgradeCost: 100000000
+  CurrentUpgradeCost: 207360000
   CostIncreaseMultiplierPerPurchase: 0.2
-  UpgradeButtonText: Mall in Ballots
+  UpgradeButtonText: Mail in Ballots
   UpgradeButtonDscription: 

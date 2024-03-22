@@ -33,7 +33,9 @@ public class VoteManager : MonoBehaviour
     //upgrades
     public double VotesPerClickUpgrade { get; set; }
     private InitializeUpgrades initializeUpgrades;
-    // private VoteNumberDisplay voteDisplay;
+
+    //AudioSource
+    AudioSource upgradeAudio;
 
     private void Awake() {
         if (instance == null) {
@@ -41,11 +43,6 @@ public class VoteManager : MonoBehaviour
         }
         UpdateVoteUI();
         UpdateVotesPerSecondUI();
-
-        Debug.Log($"VoteUpgrades: {(VoteUpgrades == null ? "null" : "set")}");
-        Debug.Log($"upgradeUiToSpawn: {(upgradeUiToSpawn == null ? "null" : "set")}");
-        Debug.Log($"upgradeUiParent: {(upgradeUiParent == null ? "null" : "set")}");
-        Debug.Log($"initializeUpgrades: {(initializeUpgrades == null ? "null" : "set")}");
 
         initializeUpgrades = GetComponent<InitializeUpgrades>();
         initializeUpgrades.Initialize(VoteUpgrades, upgradeUiToSpawn, upgradeUiParent);
@@ -81,12 +78,10 @@ public class VoteManager : MonoBehaviour
 
     private void UpdateVoteUI() {
         voteCountText.text = CurrentVoteCount.ToString("F1");
-        // voteDisplay.UpdateVoteText(CurrentVoteCount, voteCountText);
     }
 
     private void UpdateVotesPerSecondUI() {
         votesPerSecondText.text = CurrentVotesPerSecond.ToString() + " Votes/S";
-        // voteDisplay.UpdateVoteText(CurrentVotesPerSecond, votesPerSecondText, "Votes/S");
     }
 
     #endregion
@@ -110,6 +105,8 @@ public class VoteManager : MonoBehaviour
     public void OnUpgradeButtonClick(VoteUpgrade upgrade, UpgradeButtonScript buttonScript) {
         if (CurrentVoteCount >= upgrade.CurrentUpgradeCost) {
             upgrade.ApplyUpgrade();
+            upgradeAudio = GetComponent<AudioSource>();
+            upgradeAudio.Play();
 
             CurrentVoteCount -= upgrade.CurrentUpgradeCost;
             UpdateVoteUI();
@@ -124,7 +121,7 @@ public class VoteManager : MonoBehaviour
     #region Endstate 
 
     public void EndGameButton() {
-        if(CurrentVoteCount >= 10000) {
+        if(CurrentVoteCount >= 1000000000000) {
             //Change to a win menu
             SceneManager.LoadScene(2);
         }

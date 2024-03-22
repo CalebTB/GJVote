@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UpgradeAmount: 1.2
   OriginalUpgradeCost: 25
-  CurrentUpgradeCost: 25
-  CostIncreaseMultiplierPerPurchase: 1
+  CurrentUpgradeCost: 78
+  CostIncreaseMultiplierPerPurchase: 0.02
   UpgradeButtonText: Campaign Starter
   UpgradeButtonDscription: 

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfc69530e0e395e4395a9ddd6ccf5433, type: 3}
   m_Name: Votes Per Second 3
   m_EditorClassIdentifier: 
-  UpgradeAmount: 100
+  UpgradeAmount: 2500
   OriginalUpgradeCost: 100000
-  CurrentUpgradeCost: 100000
+  CurrentUpgradeCost: 655360
   CostIncreaseMultiplierPerPurchase: 0.6
   UpgradeButtonText: Manager Tier III
   UpgradeButtonDscription: 

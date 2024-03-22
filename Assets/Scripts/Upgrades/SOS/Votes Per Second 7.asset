@@ -16,5 +16,5 @@ MonoBehaviour:
   OriginalUpgradeCost: 1000000000
   CurrentUpgradeCost: 1000000000
   CostIncreaseMultiplierPerPurchase: 0.2
-  UpgradeButtonText: Rigged Election
+  UpgradeButtonText: Keep the Money Talking
   UpgradeButtonDscription: 

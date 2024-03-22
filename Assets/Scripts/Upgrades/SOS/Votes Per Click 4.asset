@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8552a717c1c003b458d893289bfc7be4, type: 3}
   m_Name: Votes Per Click 4
   m_EditorClassIdentifier: 
-  UpgradeAmount: 1000
+  UpgradeAmount: 2000
   OriginalUpgradeCost: 50000
   CurrentUpgradeCost: 50000
   CostIncreaseMultiplierPerPurchase: 0.5
